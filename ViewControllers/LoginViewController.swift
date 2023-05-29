@@ -15,6 +15,10 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var campoSenha: UITextField!
     
+    var handler: AuthStateDidChangeListenerHandle!
+    
+    var auth: Auth!
+    
     
     
     @IBAction func btnEntrar(_ sender: Any) {
@@ -57,7 +61,12 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-      
+        auth = Auth.auth()
+        handler = auth.addStateDidChangeListener{ autenticacao, usuario in
+            if usuario != nil{
+                self.performSegue(withIdentifier: "loginAutomatico", sender: nil)
+            }
+        }
 
        
         
