@@ -71,11 +71,14 @@ class LoginViewController: UIViewController {
        
         
     }
+ 
     
-    
-    override func viewWillAppear(_ animated: Bool) {
-        navigationController?.setNavigationBarHidden(true, animated: true)
+    override func viewWillDisappear(_ animated: Bool) {
+        //auth.removeStateDidChangeListener(handler)
     }
+    
+    
+   
 
     @IBAction func unwindToLogin(_ unwindSegue: UIStoryboardSegue) {
     }

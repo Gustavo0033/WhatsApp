@@ -44,6 +44,10 @@ class ContatosViewController: UIViewController, UITableViewDelegate, UITableView
         recuperarContato()
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
+    
     //metoda para recupar na search bar o que foi digitado, pega letra por letra
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         if searchText == ""{
