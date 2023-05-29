@@ -7,23 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		570709CB2A1BA6F500D937D4 /* ConversasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570709CA2A1BA6F500D937D4 /* ConversasViewController.swift */; };
+		570709CD2A1BA99500D937D4 /* ConversasTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570709CC2A1BA99500D937D4 /* ConversasTableViewCell.swift */; };
+		571AE1EA2A0BE4A500347F89 /* CadastrarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AE1E92A0BE4A500347F89 /* CadastrarViewController.swift */; };
+		571AE1EC2A0BE4BB00347F89 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AE1EB2A0BE4BB00347F89 /* LoginViewController.swift */; };
+		571AE1EE2A0BE7B500347F89 /* Alerta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AE1ED2A0BE7B500347F89 /* Alerta.swift */; };
+		571AE1F02A0BE88E00347F89 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 571AE1EF2A0BE88E00347F89 /* FirebaseDatabase */; };
+		571AE1F22A0BF33900347F89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571AE1F12A0BF33900347F89 /* HomeViewController.swift */; };
+		57552D4C2A0D28C300F2744B /* AjustesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57552D4B2A0D28C300F2744B /* AjustesViewController.swift */; };
 		575DDFD02A0BDD5E003E9E0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575DDFCF2A0BDD5E003E9E0B /* AppDelegate.swift */; };
 		575DDFD22A0BDD5E003E9E0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575DDFD12A0BDD5E003E9E0B /* SceneDelegate.swift */; };
-		575DDFD42A0BDD5E003E9E0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 575DDFD32A0BDD5E003E9E0B /* ViewController.swift */; };
 		575DDFD72A0BDD5E003E9E0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575DDFD52A0BDD5E003E9E0B /* Main.storyboard */; };
 		575DDFD92A0BDD5F003E9E0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 575DDFD82A0BDD5F003E9E0B /* Assets.xcassets */; };
 		575DDFDC2A0BDD5F003E9E0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 575DDFDA2A0BDD5F003E9E0B /* LaunchScreen.storyboard */; };
+		575DDFE42A0BDE37003E9E0B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 575DDFE32A0BDE37003E9E0B /* GoogleService-Info.plist */; };
+		575DDFE72A0BDEF9003E9E0B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 575DDFE62A0BDEF9003E9E0B /* FirebaseAnalytics */; };
+		575DDFEA2A0BDF23003E9E0B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 575DDFE92A0BDF23003E9E0B /* FirebaseStorage */; };
+		575DDFEC2A0BDF28003E9E0B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 575DDFEB2A0BDF28003E9E0B /* FirebaseAuth */; };
+		575DDFEE2A0BDF2B003E9E0B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 575DDFED2A0BDF2B003E9E0B /* FirebaseFirestore */; };
+		57960FC72A13D73000E2CA04 /* MensagensViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57960FC62A13D73000E2CA04 /* MensagensViewController.swift */; };
+		57960FC92A13E2AA00E2CA04 /* MensagensTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57960FC82A13E2AA00E2CA04 /* MensagensTableViewCell.swift */; };
+		57FCE4AE2A126D0200CDD135 /* ContatoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FCE4AD2A126D0200CDD135 /* ContatoTableViewCell.swift */; };
+		57FCE4B02A126DF700CDD135 /* ContatosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FCE4AF2A126DF700CDD135 /* ContatosViewController.swift */; };
+		57FCE4B22A1275D700CDD135 /* CadastroNovoContatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FCE4B12A1275D700CDD135 /* CadastroNovoContatoViewController.swift */; };
+		73422BDAC409D9D16ADFBAFB /* Pods_WhatsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF99F6D209A04A834414F611 /* Pods_WhatsApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		570709CA2A1BA6F500D937D4 /* ConversasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasViewController.swift; sourceTree = "<group>"; };
+		570709CC2A1BA99500D937D4 /* ConversasTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversasTableViewCell.swift; sourceTree = "<group>"; };
+		571AE1E92A0BE4A500347F89 /* CadastrarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastrarViewController.swift; sourceTree = "<group>"; };
+		571AE1EB2A0BE4BB00347F89 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		571AE1ED2A0BE7B500347F89 /* Alerta.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alerta.swift; sourceTree = "<group>"; };
+		571AE1F12A0BF33900347F89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		57552D4B2A0D28C300F2744B /* AjustesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesViewController.swift; sourceTree = "<group>"; };
 		575DDFCC2A0BDD5E003E9E0B /* WhatsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhatsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		575DDFCF2A0BDD5E003E9E0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		575DDFD12A0BDD5E003E9E0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		575DDFD32A0BDD5E003E9E0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		575DDFD62A0BDD5E003E9E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		575DDFD82A0BDD5F003E9E0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		575DDFDB2A0BDD5F003E9E0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		575DDFDD2A0BDD5F003E9E0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		575DDFE32A0BDE37003E9E0B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		57960FC62A13D73000E2CA04 /* MensagensViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensagensViewController.swift; sourceTree = "<group>"; };
+		57960FC82A13E2AA00E2CA04 /* MensagensTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MensagensTableViewCell.swift; sourceTree = "<group>"; };
+		57FCE4AD2A126D0200CDD135 /* ContatoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatoTableViewCell.swift; sourceTree = "<group>"; };
+		57FCE4AF2A126DF700CDD135 /* ContatosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContatosViewController.swift; sourceTree = "<group>"; };
+		57FCE4B12A1275D700CDD135 /* CadastroNovoContatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroNovoContatoViewController.swift; sourceTree = "<group>"; };
+		812EA5FDAB80FAE05C82BB85 /* Pods-WhatsApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.debug.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.debug.xcconfig"; sourceTree = "<group>"; };
+		93BCF7CA43F2AA28573AD67D /* Pods-WhatsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsApp.release.xcconfig"; path = "Target Support Files/Pods-WhatsApp/Pods-WhatsApp.release.xcconfig"; sourceTree = "<group>"; };
+		BF99F6D209A04A834414F611 /* Pods_WhatsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +64,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571AE1F02A0BE88E00347F89 /* FirebaseDatabase in Frameworks */,
+				575DDFE72A0BDEF9003E9E0B /* FirebaseAnalytics in Frameworks */,
+				575DDFEE2A0BDF2B003E9E0B /* FirebaseFirestore in Frameworks */,
+				575DDFEC2A0BDF28003E9E0B /* FirebaseAuth in Frameworks */,
+				575DDFEA2A0BDF23003E9E0B /* FirebaseStorage in Frameworks */,
+				73422BDAC409D9D16ADFBAFB /* Pods_WhatsApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BA3660C7ACD0874559EFF49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				812EA5FDAB80FAE05C82BB85 /* Pods-WhatsApp.debug.xcconfig */,
+				93BCF7CA43F2AA28573AD67D /* Pods-WhatsApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		570709C62A1BA67000D937D4 /* Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				57FCE4AF2A126DF700CDD135 /* ContatosViewController.swift */,
+				57552D4B2A0D28C300F2744B /* AjustesViewController.swift */,
+				570709CA2A1BA6F500D937D4 /* ConversasViewController.swift */,
+			);
+			path = Tabs;
+			sourceTree = "<group>";
+		};
+		571AE1E72A0BE47700347F89 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				570709C62A1BA67000D937D4 /* Tabs */,
+				571AE1E92A0BE4A500347F89 /* CadastrarViewController.swift */,
+				571AE1EB2A0BE4BB00347F89 /* LoginViewController.swift */,
+				571AE1F12A0BF33900347F89 /* HomeViewController.swift */,
+				57FCE4B12A1275D700CDD135 /* CadastroNovoContatoViewController.swift */,
+				57960FC62A13D73000E2CA04 /* MensagensViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		571AE1E82A0BE48E00347F89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				571AE1ED2A0BE7B500347F89 /* Alerta.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		575DDFC32A0BDD5E003E9E0B = {
 			isa = PBXGroup;
 			children = (
+				57FCE4AC2A126CDE00CDD135 /* tableViewCell */,
+				571AE1E72A0BE47700347F89 /* ViewControllers */,
 				575DDFCE2A0BDD5E003E9E0B /* WhatsApp */,
 				575DDFCD2A0BDD5E003E9E0B /* Products */,
+				575DDFE82A0BDF23003E9E0B /* Frameworks */,
+				2BA3660C7ACD0874559EFF49 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +139,34 @@
 		575DDFCE2A0BDD5E003E9E0B /* WhatsApp */ = {
 			isa = PBXGroup;
 			children = (
+				571AE1E82A0BE48E00347F89 /* Model */,
 				575DDFCF2A0BDD5E003E9E0B /* AppDelegate.swift */,
 				575DDFD12A0BDD5E003E9E0B /* SceneDelegate.swift */,
-				575DDFD32A0BDD5E003E9E0B /* ViewController.swift */,
 				575DDFD52A0BDD5E003E9E0B /* Main.storyboard */,
 				575DDFD82A0BDD5F003E9E0B /* Assets.xcassets */,
 				575DDFDA2A0BDD5F003E9E0B /* LaunchScreen.storyboard */,
 				575DDFDD2A0BDD5F003E9E0B /* Info.plist */,
+				575DDFE32A0BDE37003E9E0B /* GoogleService-Info.plist */,
 			);
 			path = WhatsApp;
+			sourceTree = "<group>";
+		};
+		575DDFE82A0BDF23003E9E0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF99F6D209A04A834414F611 /* Pods_WhatsApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57FCE4AC2A126CDE00CDD135 /* tableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				57FCE4AD2A126D0200CDD135 /* ContatoTableViewCell.swift */,
+				57960FC82A13E2AA00E2CA04 /* MensagensTableViewCell.swift */,
+				570709CC2A1BA99500D937D4 /* ConversasTableViewCell.swift */,
+			);
+			path = tableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +176,24 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 575DDFE02A0BDD5F003E9E0B /* Build configuration list for PBXNativeTarget "WhatsApp" */;
 			buildPhases = (
+				149E8DF29B59B1BBF5E76282 /* [CP] Check Pods Manifest.lock */,
 				575DDFC82A0BDD5E003E9E0B /* Sources */,
 				575DDFC92A0BDD5E003E9E0B /* Frameworks */,
 				575DDFCA2A0BDD5E003E9E0B /* Resources */,
+				133973BFB438068A2000869F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = WhatsApp;
+			packageProductDependencies = (
+				575DDFE62A0BDEF9003E9E0B /* FirebaseAnalytics */,
+				575DDFE92A0BDF23003E9E0B /* FirebaseStorage */,
+				575DDFEB2A0BDF28003E9E0B /* FirebaseAuth */,
+				575DDFED2A0BDF2B003E9E0B /* FirebaseFirestore */,
+				571AE1EF2A0BE88E00347F89 /* FirebaseDatabase */,
+			);
 			productName = WhatsApp;
 			productReference = 575DDFCC2A0BDD5E003E9E0B /* WhatsApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +222,9 @@
 				Base,
 			);
 			mainGroup = 575DDFC32A0BDD5E003E9E0B;
+			packageReferences = (
+				575DDFE52A0BDEF9003E9E0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 575DDFCD2A0BDD5E003E9E0B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,19 +242,73 @@
 				575DDFDC2A0BDD5F003E9E0B /* LaunchScreen.storyboard in Resources */,
 				575DDFD92A0BDD5F003E9E0B /* Assets.xcassets in Resources */,
 				575DDFD72A0BDD5E003E9E0B /* Main.storyboard in Resources */,
+				575DDFE42A0BDE37003E9E0B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		133973BFB438068A2000869F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsApp/Pods-WhatsApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsApp/Pods-WhatsApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsApp/Pods-WhatsApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		149E8DF29B59B1BBF5E76282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		575DDFC82A0BDD5E003E9E0B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				575DDFD42A0BDD5E003E9E0B /* ViewController.swift in Sources */,
+				57FCE4AE2A126D0200CDD135 /* ContatoTableViewCell.swift in Sources */,
+				57552D4C2A0D28C300F2744B /* AjustesViewController.swift in Sources */,
+				57960FC72A13D73000E2CA04 /* MensagensViewController.swift in Sources */,
+				57FCE4B02A126DF700CDD135 /* ContatosViewController.swift in Sources */,
+				571AE1EC2A0BE4BB00347F89 /* LoginViewController.swift in Sources */,
+				57FCE4B22A1275D700CDD135 /* CadastroNovoContatoViewController.swift in Sources */,
+				570709CD2A1BA99500D937D4 /* ConversasTableViewCell.swift in Sources */,
+				571AE1EE2A0BE7B500347F89 /* Alerta.swift in Sources */,
+				57960FC92A13E2AA00E2CA04 /* MensagensTableViewCell.swift in Sources */,
 				575DDFD02A0BDD5E003E9E0B /* AppDelegate.swift in Sources */,
+				571AE1EA2A0BE4A500347F89 /* CadastrarViewController.swift in Sources */,
+				570709CB2A1BA6F500D937D4 /* ConversasViewController.swift in Sources */,
 				575DDFD22A0BDD5E003E9E0B /* SceneDelegate.swift in Sources */,
+				571AE1F22A0BF33900347F89 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +450,7 @@
 		};
 		575DDFE12A0BDD5F003E9E0B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 812EA5FDAB80FAE05C82BB85 /* Pods-WhatsApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,13 +462,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = GustavoCompany.WhatsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -310,6 +480,7 @@
 		};
 		575DDFE22A0BDD5F003E9E0B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BCF7CA43F2AA28573AD67D /* Pods-WhatsApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,13 +492,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CODE_SIGN_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = GustavoCompany.WhatsApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -358,6 +530,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		575DDFE52A0BDEF9003E9E0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		571AE1EF2A0BE88E00347F89 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 575DDFE52A0BDEF9003E9E0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		575DDFE62A0BDEF9003E9E0B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 575DDFE52A0BDEF9003E9E0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		575DDFE92A0BDF23003E9E0B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 575DDFE52A0BDEF9003E9E0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		575DDFEB2A0BDF28003E9E0B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 575DDFE52A0BDEF9003E9E0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		575DDFED2A0BDF2B003E9E0B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 575DDFE52A0BDEF9003E9E0B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 575DDFC42A0BDD5E003E9E0B /* Project object */;
 }
