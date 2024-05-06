@@ -4,8 +4,13 @@ Está parecido com o WhatsApp oficial que nos temos, mas não tem tantas funcion
 Você pode confgurar sua foto de perfil e adicionar contatos para conversar!
 
 # Features 
-[x] Envio de mensagens
-[x] Envio de imagens
-[x] Cadastro e Login de usuarios
-[x] adicionar novos contatos
+- [x] Envio de mensagens
+- [x] Envio de imagens
+- [x] Cadastro e Login de usuarios
+- [x] adicionar novos contatos
+
+# Technologiese Used:
+- [x] Swift
+- [x] UIKit
+- [x] Firebase (for authentication and data storage)
 
