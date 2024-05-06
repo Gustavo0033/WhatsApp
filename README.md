@@ -1,13 +1,11 @@
 # WhatsApp
-Olá! Fiz esse aplicativo treinando minhas habilidades em Swift.
-Está parecido com o WhatsApp oficial que nos temos, mas não tem tantas funcionalidades, conseguimos apenas enviar mensagens, fotos e recebê-las também.
-Você pode confgurar sua foto de perfil e adicionar contatos para conversar!
+Hello! I made this app training my Swift skills. It's similar to the official WhatsApp we have, but it doesn't have as many features, we can only send messages, photos and receive them too. You can configure your profile photo and add contacts to chat!
 
 # Features 
-- [x] Envio de mensagens
-- [x] Envio de imagens
-- [x] Cadastro e Login de usuarios
-- [x] adicionar novos contatos
+- [x] Send messages
+- [x] Send images 
+- [x] Log in and Sign Up of users
+- [x] Add new contacts
 
 # Technologiese Used:
 - [x] Swift
